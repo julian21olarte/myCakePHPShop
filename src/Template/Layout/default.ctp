@@ -28,7 +28,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->css('bootstrap.min.css') ?>
     <?= $this->Html->css('navbar.css') ?>
-    <?= $this->Html->script(['jquery-3.2.1.min.js', 'bootstrap.min.js']) ?>
+    <?= $this->Html->css('style.css') ?>
+    <?= $this->Html->script(['jquery-3.2.1.min.js', 'bootstrap.min.js', 'bootstrap-filestyle.min']) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>

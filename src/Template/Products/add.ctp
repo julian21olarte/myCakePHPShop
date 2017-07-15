@@ -8,7 +8,7 @@
         <div class="page-header">
             <h2>Agregar Producto</h2>
         </div>
-        <?= $this->Form->create($product) ?>
+        <?= $this->Form->create($product, ['type' => 'file']) ?>
         <fieldset>
            <?= $this->element('Products/fields')?>
         </fieldset>

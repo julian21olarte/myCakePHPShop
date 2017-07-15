@@ -54,7 +54,7 @@ class ProductsController extends AppController
         if ($this->request->is('post')) {
             $product = $this->Products->patchEntity($product, $this->request->getData());
             if ($this->Products->save($product)) {
-                $this->Flash->success(__('El producto fue creao correctamente.'));
+                $this->Flash->success(__('El producto fue creado correctamente.'));
 
                 return $this->redirect(['action' => 'index']);
             }
